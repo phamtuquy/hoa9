@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Note on Flower\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-06 10:09+0000\n"
+"PO-Revision-Date: 2017-05-06 10:11+0000\n"
+"Last-Translator: Quy Pham <tuquy12a3@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: note-on-flower.php:65
+msgid "Add note to ribbon"
+msgstr "Add note to ribbon"
+
+#: note-on-flower.php:66
+msgid "Add note and to cart"
+msgstr "Add note and to cart"
+
+#: note-on-flower.php:71
+msgid "Your note here"
+msgstr "Your note here"
+
+#: note-on-flower.php:114
+msgid "With:"
+msgstr "With:"
+
+#. Name of the plugin
+msgid "Note on Flower"
+msgstr "Note on Flower"
+
+#. Description of the plugin
+msgid ""
+"a plugin to create a custom text that consumer uses to attach to his flower "
+"bouque"
+msgstr ""
+"a plugin to create a custom text that consumer uses to attach to his flower "
+"bouque"
+
+#. URI of the plugin
+msgid "n/a"
+msgstr "n/a"
+
+#. Author of the plugin
+msgid "Pham Tu Quy"
+msgstr "Pham Tu Quy"

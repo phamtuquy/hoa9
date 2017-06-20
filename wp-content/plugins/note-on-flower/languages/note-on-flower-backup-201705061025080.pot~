@@ -1,0 +1,49 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-06 10:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: note-on-flower.php:65
+msgid "Add note to ribbon"
+msgstr ""
+
+#: note-on-flower.php:66
+msgid "Add note and to cart"
+msgstr ""
+
+#: note-on-flower.php:71
+msgid "Your note here"
+msgstr ""
+
+#: note-on-flower.php:114
+msgid "With:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Note on Flower"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"a plugin to create a custom text that consumer uses to attach to his flower "
+"bouque"
+msgstr ""
+
+#. URI of the plugin
+msgid "n/a"
+msgstr ""
+
+#. Author of the plugin
+msgid "Pham Tu Quy"
+msgstr ""

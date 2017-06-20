@@ -1,0 +1,87 @@
+[26-Apr-2017 04:54:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/wp-content/themes/azera-shop/inc/customizer.php on line 646
+[26-Apr-2017 04:54:55 UTC] PHP Stack trace:
+[26-Apr-2017 04:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[26-Apr-2017 04:54:55 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[26-Apr-2017 04:54:55 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[26-Apr-2017 04:54:55 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[26-Apr-2017 04:54:55 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[26-Apr-2017 04:54:55 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
+[26-Apr-2017 05:33:58 UTC] PHP Fatal error:  Class 'Azera_Shop_Image_Picker' not found in /home/ubuntu/workspace/wp-content/themes/azera-shop/inc/customizer.php on line 152
+[26-Apr-2017 05:33:58 UTC] PHP Stack trace:
+[26-Apr-2017 05:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[26-Apr-2017 05:33:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[26-Apr-2017 05:33:59 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[26-Apr-2017 05:33:59 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[26-Apr-2017 05:33:59 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[26-Apr-2017 05:33:59 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:470
+[26-Apr-2017 05:33:59 UTC] PHP   7. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Apr-2017 05:33:59 UTC] PHP   8. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[26-Apr-2017 05:33:59 UTC] PHP   9. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[26-Apr-2017 05:33:59 UTC] PHP  10. WP_Customize_Manager->wp_loaded() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[26-Apr-2017 05:33:59 UTC] PHP  11. do_action() /home/ubuntu/workspace/wp-includes/class-wp-customize-manager.php:734
+[26-Apr-2017 05:33:59 UTC] PHP  12. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[26-Apr-2017 05:33:59 UTC] PHP  13. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[26-Apr-2017 05:33:59 UTC] PHP  14. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[26-Apr-2017 05:33:59 UTC] PHP  15. azera_shop_customize_register() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[26-Apr-2017 05:37:33 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/ubuntu/workspace/wp-content/themes/azera-shop/inc/customizer.php on line 649
+[26-Apr-2017 05:37:33 UTC] PHP Stack trace:
+[26-Apr-2017 05:37:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[26-Apr-2017 05:37:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[26-Apr-2017 05:37:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[26-Apr-2017 05:37:33 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[26-Apr-2017 05:37:33 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[26-Apr-2017 05:37:33 UTC] PHP   6. include() /home/ubuntu/workspace/wp-settings.php:425
+[01-May-2017 05:16:54 UTC] PHP Parse error:  syntax error, unexpected 'add_action' (T_STRING), expecting '(' in /home/ubuntu/workspace/wp-content/plugins/note-on-flower/note-on-flower.php on line 72
+[01-May-2017 05:16:54 UTC] PHP Stack trace:
+[01-May-2017 05:16:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-May-2017 05:16:54 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[01-May-2017 05:16:54 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[01-May-2017 05:16:54 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:16:56 UTC] PHP Fatal error:  Cannot redeclare nof_inject_note_to_cart_item() (previously declared in /home/ubuntu/workspace/wp-content/plugins/note-on-flower/note-on-flower.php:53) in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1039
+[04-May-2017 04:16:56 UTC] PHP Stack trace:
+[04-May-2017 04:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/index.php:0
+[04-May-2017 04:16:56 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/index.php:10
+[04-May-2017 04:16:56 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[04-May-2017 04:16:56 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:16:56 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:32:40 UTC] PHP Fatal error:  Call to undefined function add_filters() in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1039
+[04-May-2017 04:32:40 UTC] PHP Stack trace:
+[04-May-2017 04:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 04:32:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2017 04:32:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:32:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:32:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:425
+[04-May-2017 04:34:39 UTC] PHP Fatal error:  Call to undefined function add_filters() in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1039
+[04-May-2017 04:34:39 UTC] PHP Stack trace:
+[04-May-2017 04:34:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 04:34:39 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2017 04:34:39 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:34:39 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:34:39 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:425
+[04-May-2017 04:36:40 UTC] PHP Fatal error:  Call to undefined function add_filters() in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1049
+[04-May-2017 04:36:40 UTC] PHP Stack trace:
+[04-May-2017 04:36:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 04:36:40 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2017 04:36:40 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:36:40 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:36:40 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:425
+[04-May-2017 04:38:41 UTC] PHP Fatal error:  Call to undefined function add_filters() in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1051
+[04-May-2017 04:38:41 UTC] PHP Stack trace:
+[04-May-2017 04:38:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 04:38:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2017 04:38:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:38:41 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:38:41 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:425
+[04-May-2017 04:40:41 UTC] PHP Fatal error:  Call to undefined function add_filters() in /home/ubuntu/workspace/wp-content/plugins/note-on-flower/note-on-flower.php on line 91
+[04-May-2017 04:40:41 UTC] PHP Stack trace:
+[04-May-2017 04:40:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[04-May-2017 04:40:41 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[04-May-2017 04:40:41 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[04-May-2017 04:40:41 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[04-May-2017 04:40:41 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:304
+[12-Jun-2017 10:42:49 UTC] PHP Fatal error:  Cannot redeclare azera_shop_themeisle_sdk() (previously declared in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php:1020) in /home/ubuntu/workspace/wp-content/themes/azera-shop/functions.php on line 1044
+[12-Jun-2017 10:42:49 UTC] PHP Stack trace:
+[12-Jun-2017 10:42:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[12-Jun-2017 10:42:49 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[12-Jun-2017 10:42:49 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[12-Jun-2017 10:42:49 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
