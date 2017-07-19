@@ -2,7 +2,7 @@
 /**
  * Simple product add to cart
  *
- * This template overwrites /woocommerce/templates/single-product/add-to-cart/simple.php.
+ * This template overrides the orginal woocommerce template at /woocommerce/templates/single-product/add-to-cart/simple.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to

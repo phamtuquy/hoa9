@@ -4706,7 +4706,7 @@ msgstr ""
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:301
 #: includes/gateways/class-wc-payment-gateway-echeck.php:44
 msgid "Account number"
-msgstr "Số tài khoản"
+msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:131
 msgid "Bank name"

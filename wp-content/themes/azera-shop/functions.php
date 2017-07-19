@@ -1039,7 +1039,7 @@ azera_shop_themeisle_sdk();
 
 function service_area_notice(){
 ?>
-	<div>Hiện tại, chúng tôi chỉ phục vụ trong phạm vi nội thành Hà Nội. Xin quý khách thông cảm.</div>
+	<div><label>Hiện tại, chúng tôi chỉ phục vụ trong phạm vi nội thành Hà Nội. Xin quý khách thông cảm.</label></div>
 <?php
 }
 
