@@ -1042,8 +1042,33 @@ function service_area_notice(){
 	<div><label>Hiện tại, chúng tôi chỉ phục vụ trong phạm vi nội thành Hà Nội. Xin quý khách thông cảm.</label></div>
 <?php
 }
-
 add_action('woocommerce_before_checkout_billing_form', 'service_area_notice');
 
+
+/*function empty_shipping_rate_label()
+{
+	return '';
+}
+add_filter('woocommerce_shipping_rate_label', 'empty_shipping_rate_label');*/
+
+function remove_shipping_rate_label($value)
+{
+	$value = str_replace('Flat rate:','',$value);
+	return $value;
+}
+add_filter('woocommerce_custom_shipping_method_label', 'remove_shipping_rate_label');
+
+function translate_shipping_fee()
+{
+	return 'Phí vận chuyển';
+}
+add_filter('woocommerce_custom_shipipng_fee_on_cart', 'translate_shipping_fee');
+
+function make_total_bold($value)
+{
+	$value = str_replace('amount"','amount total-amount"',$value);
+	return $value;
+}
+add_filter('woocommerce_cart_totals_order_total_html', 'make_total_bold');
 // =====================================
 // ===================================== 

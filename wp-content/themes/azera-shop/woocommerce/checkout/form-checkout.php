@@ -44,9 +44,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				
 				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 			</div>
-
-			<!-- div class="col-2">middle column</div -->
-
+			
 			<div class="col-2">
 				<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
 
