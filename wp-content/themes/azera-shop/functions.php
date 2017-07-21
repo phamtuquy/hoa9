@@ -1064,6 +1064,13 @@ function translate_shipping_fee()
 }
 add_filter('woocommerce_custom_shipipng_fee_on_cart', 'translate_shipping_fee');
 
+function remove_flatrate_in_shipping_on_thankyou($value)
+{
+	$value = str_replace('qua Flat rate', '', $value);
+	return $value;
+}
+add_filter('woocommerce_custom_shipping_fee_on_thankyou', 'remove_flatrate_in_shipping_on_thankyou');
+
 function make_total_bold($value)
 {
 	$value = str_replace('amount"','amount total-amount"',$value);

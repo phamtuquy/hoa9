@@ -6800,7 +6800,7 @@ p.edd-alert-error,
 }
 
 /*---------------------------------------
-   10.0 MY CUSTOM CSS
+   10.0 MY CUSTOM CSS #HOA9
 -----------------------------------------*/
 .custom_margin_left{
 	margin-left: 20px;
@@ -6831,4 +6831,18 @@ p.edd-alert-error,
 .brief-image-left img {
 	float: left;
 	width: 95%;
+}
+
+.woocommerce form .form-row .custom-checkbox-1{
+	position: relative;
+}
+
+.woocommerce-page #payment #place_order{
+	font-size: 16px;
+	width: 100%;
+	line-height: 50px;
+}
+
+.woocommerce-checkout #payment{
+	background-color: #f7f6f7;
 }

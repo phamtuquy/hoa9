@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-19 11:50+0000\n"
+"PO-Revision-Date: 2017-07-20 10:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -206,7 +206,7 @@ msgstr ""
 #: includes/class-wc-checkout.php:607
 #, php-format
 msgid "Billing %s"
-msgstr ""
+msgstr "%s"
 
 #: includes/class-wc-checkout.php:616 includes/class-wc-form-handler.php:114
 #: includes/shortcodes/class-wc-shortcode-cart.php:27
