@@ -98,12 +98,12 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 
 						if ( ! empty( $azera_shop_header_button_text ) ) {
 							if ( empty( $azera_shop_header_button_link ) ) {
-								echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>';
+								echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>&nbsp;&nbsp;';
 							} else {
 								if ( strpos( $azera_shop_header_button_link, '#' ) === 0 ) {
-									echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll" data-anchor="' . $azera_shop_header_button_link . '"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>';
+									echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll" data-anchor="' . $azera_shop_header_button_link . '"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>&nbsp;&nbsp;';
 								} else {
-									echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll" onClick="parent.location=\'' . esc_url( $azera_shop_header_button_link ) . '\'"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>';
+									echo '<button id="inpage_scroll_btn" class="btn btn-primary standard-button inpage-scroll" onClick="parent.location=\'' . esc_url( $azera_shop_header_button_link ) . '\'"><span class="screen-reader-text">' . esc_html__( 'Header button label:', 'azera-shop' ) . $azera_shop_header_button_text . '</span>' . $azera_shop_header_button_text . '</button>&nbsp;&nbsp;';
 								}
 							}
 						} elseif ( isset( $wp_customize ) ) {
