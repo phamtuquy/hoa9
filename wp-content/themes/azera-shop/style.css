@@ -6846,3 +6846,7 @@ p.edd-alert-error,
 .woocommerce-checkout #payment{
 	background-color: #f7f6f7;
 }
+
+.woocommerce .type-product img{
+	width: 650px;
+}
