@@ -2,7 +2,7 @@
 /**
  * Login Form
  *
- * This template can be overridden by copying it to yourtheme/woocommerce/myaccount/form-login.php.
+ * This template overrides the orginal woocommerce template at /woocommerce/myaccount/form-login.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -72,9 +72,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="u-column2 col-2" style="display: block;">
 
-		<h2><?php _e( 'Register', 'woocommerce' ); ?></h2>
+		<h2><?php _e( 'Don\'t have account?', 'woocommerce' ); ?></h2>
 
-		<form method="post" class="register">
+		<form method="post" class="register register-form">
 
 			<?php do_action( 'woocommerce_register_form_start' ); ?>
 

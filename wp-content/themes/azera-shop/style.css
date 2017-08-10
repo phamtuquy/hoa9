@@ -6850,3 +6850,7 @@ p.edd-alert-error,
 .woocommerce .type-product img{
 	width: 650px;
 }
+
+.woocommerce form.register-form {
+	background-color: #f7f6f7;
+}
