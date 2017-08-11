@@ -49,7 +49,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" />
 			</p>
 
-			<?php do_action( 'woocommerce_login_form' ); ?>
+			<div>
+			<?php do_action( 'woocommerce_login_form' ); ?></div>
 
 			<p class="form-row">
 				<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>

@@ -234,6 +234,9 @@ class Facebook_Login {
 		$this->fbl = new Facebook_Login_Public( $this->get_plugin_name(), $this->get_version() );
 
 		if( !empty( $this->opts['fb_id'] ) ) {
+			$this->loader->add_action( 'woocommerce_login_form', $this->fbl, 'print_button' ); #hoa9
+			$this->loader->add_action( 'woocommerce_login_form', $this->fbl, 'add_fb_scripts' ); #hoa9
+			
 			$this->loader->add_action( 'login_form', $this->fbl, 'print_button' );
 			$this->loader->add_action( 'login_form', $this->fbl, 'add_fb_scripts' );
 			$this->loader->add_action( 'register_form', $this->fbl, 'print_button' );
