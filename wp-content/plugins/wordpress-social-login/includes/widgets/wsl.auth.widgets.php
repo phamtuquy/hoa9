@@ -475,6 +475,8 @@ function wsl_render_auth_widget_in_wp_login_form()
 	}
 }
 
+add_action( 'woocommerce_login_form'          , 'wsl_render_auth_widget_in_wp_login_form' ); #hoa9
+
 add_action( 'login_form'                      , 'wsl_render_auth_widget_in_wp_login_form' );
 add_action( 'bp_before_account_details_fields', 'wsl_render_auth_widget_in_wp_login_form' );
 add_action( 'bp_before_sidebar_login_form'    , 'wsl_render_auth_widget_in_wp_login_form' );

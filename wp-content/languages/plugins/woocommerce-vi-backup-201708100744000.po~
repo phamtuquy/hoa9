@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-20 10:39+0000\n"
+"PO-Revision-Date: 2017-08-10 07:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Language: vi\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-19 11:46+0000\n"
+"POT-Creation-Date: 2017-08-10 07:43+0000\n"
 "Last-Translator: Quy Pham <tuquy12a3@gmail.com>\n"
 "Language-Team: Vietnamese"
 
@@ -202,12 +202,6 @@ msgstr ""
 msgid "Shipping %s"
 msgstr ""
 
-#. translators: %s: field name
-#: includes/class-wc-checkout.php:607
-#, php-format
-msgid "Billing %s"
-msgstr "%s"
-
 #: includes/class-wc-checkout.php:616 includes/class-wc-form-handler.php:114
 #: includes/shortcodes/class-wc-shortcode-cart.php:27
 msgid "Please enter a valid postcode / ZIP."
@@ -229,13 +223,6 @@ msgstr ""
 #: includes/class-wc-checkout.php:653
 #, php-format
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
-msgstr ""
-
-#. translators: %s: field name
-#: includes/class-wc-checkout.php:660 includes/class-wc-form-handler.php:101
-#: includes/class-wc-form-handler.php:202
-#, php-format
-msgid "%s is a required field."
 msgstr ""
 
 #: includes/class-wc-product-external.php:105
@@ -5835,6 +5822,9 @@ msgstr ""
 msgid "Automattic"
 msgstr ""
 
+msgid "Don't have account?"
+msgstr "Bạn chưa có tài khoản?"
+
 #: woocommerce.php:140 woocommerce.php:148 includes/class-wc-checkout.php:155
 #: includes/class-wc-checkout.php:162 includes/class-wc-payment-gateways.php:51
 #: includes/class-wc-payment-gateways.php:60 includes/class-wc-emails.php:53
@@ -7695,6 +7685,19 @@ msgstr "Mật khẩu tài khoản"
 #: templates/myaccount/form-login.php:98
 msgid "Password"
 msgstr "Mật khẩu"
+
+#. translators: %s: field name
+#: includes/class-wc-checkout.php:607
+#, php-format
+msgid "Billing %s"
+msgstr "%s"
+
+#. translators: %s: field name
+#: includes/class-wc-checkout.php:660 includes/class-wc-form-handler.php:101
+#: includes/class-wc-form-handler.php:202
+#, php-format
+msgid "%s is a required field."
+msgstr "%s là trường bắt buộc nhập."
 
 #: includes/class-wc-checkout.php:678 includes/class-wc-form-handler.php:307
 msgid "You must accept our Terms &amp; Conditions."
@@ -23567,5 +23570,8 @@ msgstr "https://woocommerce.com/"
 msgid "https://woocommerce.com"
 msgstr "https://woocommerce.com"
 
-msgid "Flat rate:"
-msgstr "a"
+msgid "First Name"
+msgstr "Họ"
+
+msgid "Last Name"
+msgstr "Tên"

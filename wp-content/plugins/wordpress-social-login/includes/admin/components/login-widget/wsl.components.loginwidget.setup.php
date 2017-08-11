@@ -87,6 +87,8 @@ function wsl_component_loginwidget_setup_basic_settings()
 					$icon_sets = array(
 						'wpzoom'   => "WPZOOM social networking icon set",
 						'icondock' => "Icondock vector social media icons",
+
+						'myicon' => 'My custom icon from Hoa9', #hoa9
 					);
 
 					$icon_sets = apply_filters( 'wsl_component_loginwidget_setup_alter_icon_sets', $icon_sets );
