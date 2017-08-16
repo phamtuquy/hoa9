@@ -87,7 +87,7 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_propositions ) ) {
 	}
 }
 ?>
-
+<a name="m"></a><p>&nbsp;</p>
 <!-- PROPOSITION ONE -->
 <?php
 	if (! empty($azera_shop_propositions_title_one) && ! empty($azera_shop_propositions_text_one) && ! empty($azera_shop_propositions_image_one) ){ ?>
