@@ -91,9 +91,9 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 						}
 
 						if ( ! empty( $azera_shop_header_subtitle ) ) {
-							echo '<h5 id="intro_section_text_2" class="white-text">' .  $azera_shop_header_subtitle  . '</h5>';
+							echo '<h3 id="intro_section_text_2" class="white-text">' .  $azera_shop_header_subtitle  . '</h3>';
 						} elseif ( isset( $wp_customize ) ) {
-							echo '<h5 id="intro_section_text_2" class="white-text azera_shop_only_customizer"></h5>';
+							echo '<h3 id="intro_section_text_2" class="white-text azera_shop_only_customizer"></h3>';
 						}
 
 						if ( ! empty( $azera_shop_header_button_text ) ) {
