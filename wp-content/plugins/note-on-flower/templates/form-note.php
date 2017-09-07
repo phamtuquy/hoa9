@@ -27,4 +27,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 	        <p>Bạn có thể copy những kí tự dễ thương này vào tin nhắn: ★ ♫ ☺ ♠ ♣ ♥ ♦</p>
 	    </div>
     </div>
-    abc

@@ -61,7 +61,7 @@ function custom_add_to_cart_link($link, $product)
     $product_id = $product->id;
     
     
-    $link_render = sprintf( '<input alt="#TB_inline?height=170&amp;width=450&amp;inlineId=add_note_popup_%s" title="%s" class="thickbox button" type="button" value="%s" />',
+    $link_render = sprintf( '<input alt="#TB_inline?height=250&amp;width=450&amp;inlineId=add_note_popup_%s" title="%s" class="thickbox button" type="button" value="%s" />',
                         $product_id,
                         esc_html__('Add note to ribbon', 'note-on-flower'),
                         esc_html__('Add note and to cart', 'note-on-flower')
@@ -81,6 +81,7 @@ function custom_add_to_cart_link($link, $product)
 	$link_render = $link_render . '<p><input type="text" style="width: 270px;" id="custom_note_' . $product_id . '" /></p>';
 	$link_render = $link_render . $link;
 	$link_render = $link_render . '<p>Bạn có thể copy những kí tự dễ thương này vào tin nhắn: ★ ♫ ☺ ♠ ♣ ♥ ♦</p>';
+	$link_render = $link_render . '<p>* Vì chiều dài ruy băng có hạn, để in tốt, tin nhắn nên dưới 40 kí tự.';
 	$link_render = $link_render . '</div>';
     $link_render = $link_render . '</div>';
     
