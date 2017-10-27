@@ -86,15 +86,15 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 
 						if ( ! empty( $azera_shop_header_title ) ) {
 							//echo '<h2 id="intro_section_text_1" class="intro white-text">' . esc_attr( $azera_shop_header_title ) . '</h2>';
-							echo '<h2 id="intro_section_text_1" class="intro white-text">' .  $azera_shop_header_title  . '</h2>'; //##hoa9
+							echo '<h2 id="intro_section_text_1" class="intro orange-text">' .  $azera_shop_header_title  . '</h2>'; //##hoa9
 						} elseif ( isset( $wp_customize ) ) {
-							echo '<h2 id="intro_section_text_1" class="intro white-text azera_shop_only_customizer"></h2>';
+							echo '<h2 id="intro_section_text_1" class="intro orange-text azera_shop_only_customizer"></h2>';
 						}
 
 						if ( ! empty( $azera_shop_header_subtitle ) ) {
-							echo '<h3 id="intro_section_text_2" class="white-text">' .  $azera_shop_header_subtitle  . '</h3>';
+							echo '<h3 id="intro_section_text_2" class="orange-text">' .  $azera_shop_header_subtitle  . '</h3>';
 						} elseif ( isset( $wp_customize ) ) {
-							echo '<h3 id="intro_section_text_2" class="white-text azera_shop_only_customizer"></h3>';
+							echo '<h3 id="intro_section_text_2" class="orange-text azera_shop_only_customizer"></h3>';
 						}
 
 						if ( ! empty( $azera_shop_header_button_text ) ) {

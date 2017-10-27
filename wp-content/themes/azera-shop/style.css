@@ -6833,6 +6833,10 @@ p.edd-alert-error,
 	width: 95%;
 }
 
+.orange-text {
+	color: #ed440b;
+}
+
 .woocommerce form .form-row .custom-checkbox-1{
 	position: relative;
 }
