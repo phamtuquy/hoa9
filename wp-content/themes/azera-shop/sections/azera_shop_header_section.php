@@ -50,7 +50,7 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 	}
 	?>
 
-	<div class="overlay-layer-wrap">
+	<div class="overlay-layer-wrap1"> <!-- remove style #hoa9 -->
 		<div class="container overlay-layer" id="parallax_header">
 			<?php
 			if ( ! empty( $azera_shop_header_logo ) ) {
@@ -88,13 +88,13 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 							//echo '<h2 id="intro_section_text_1" class="intro white-text">' . esc_attr( $azera_shop_header_title ) . '</h2>';
 							echo '<h2 id="intro_section_text_1" class="intro orange-text">' .  $azera_shop_header_title  . '</h2>'; //##hoa9
 						} elseif ( isset( $wp_customize ) ) {
-							echo '<h2 id="intro_section_text_1" class="intro orange-text azera_shop_only_customizer"></h2>';
+							echo '<h2 id="intro_section_text_1" class="intro orange-text azera_shop_only_customizer"></h2>'; //##hoa9
 						}
 
 						if ( ! empty( $azera_shop_header_subtitle ) ) {
-							echo '<h3 id="intro_section_text_2" class="orange-text">' .  $azera_shop_header_subtitle  . '</h3>';
+							echo '<h3 id="intro_section_text_2" class="orange-text">' .  $azera_shop_header_subtitle  . '</h3>'; //##hoa9
 						} elseif ( isset( $wp_customize ) ) {
-							echo '<h3 id="intro_section_text_2" class="orange-text azera_shop_only_customizer"></h3>';
+							echo '<h3 id="intro_section_text_2" class="orange-text azera_shop_only_customizer"></h3>'; //##hoa9
 						}
 
 						if ( ! empty( $azera_shop_header_button_text ) ) {
