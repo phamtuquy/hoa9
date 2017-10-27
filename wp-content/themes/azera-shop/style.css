@@ -6841,6 +6841,10 @@ p.edd-alert-error,
 	width: 70%;
 }
 
+.title-ul {
+	margin: 0 0 0 0;
+}
+
 .woocommerce form .form-row .custom-checkbox-1{
 	position: relative;
 }
