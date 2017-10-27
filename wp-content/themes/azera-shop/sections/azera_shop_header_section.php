@@ -69,7 +69,7 @@ if ( ! empty( $azera_shop_header_title ) || ! empty( $azera_shop_header_subtitle
 			<div class="row">
 				<?php
 				if ( ! empty( $azera_shop_header_layout ) && ( $azera_shop_header_layout == 'layout2' ) ) {
-					echo '<div class="col-md-7 text-left second-header-layout">';
+					echo '<div class="col-md-7-custom text-left second-header-layout">';
 				} else {
 					echo '<div class="col-md-12 intro-section-text-wrap">';
 				}
