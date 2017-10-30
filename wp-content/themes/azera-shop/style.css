@@ -6839,12 +6839,13 @@ p.edd-alert-error,
 }
 
 .proposition-item{
-	float: left;
+	
 	font-weight: 300;
 	font-size: 22px;
 }
 
 .proposition-item-haft{
+	float: left;
 	width: 50%;
 }
 
