@@ -92,7 +92,7 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_propositions ) ) {
 <?php
 	if (! empty($azera_shop_propositions_title_one) && ! empty($azera_shop_propositions_text_one) && ! empty($azera_shop_propositions_image_one) ){ ?>
 		<div class="section-overlay-layer">
-	        <div class="container">
+	        <div class="container bottom-line">
 		        <div class="row">
 				    <!-- BRIEF IMAGE -->
 					<div class="col-md-6 brief-content-two">
@@ -119,7 +119,7 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_propositions ) ) {
 <?php
 	if (! empty($azera_shop_propositions_title_two) && ! empty($azera_shop_propositions_text_two) && ! empty($azera_shop_propositions_image_two) ){ ?>
 		<div class="section-overlay-layer">
-	        <div class="container">
+	        <div class="container bottom-line">
 		        <div class="row">
 				    <!-- BRIEF IMAGE -->
 					<div class="col-md-6 brief-content-one">
@@ -146,7 +146,7 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_propositions ) ) {
 <?php
 	if (! empty($azera_shop_propositions_title_three) && ! empty($azera_shop_propositions_text_three) && ! empty($azera_shop_propositions_image_three) ){ ?>
 		<div class="section-overlay-layer">
-	        <div class="container">
+	        <div class="container bottom-line">
 		        <div class="row">
 				    <!-- BRIEF IMAGE -->
 					<div class="col-md-6 brief-content-two">

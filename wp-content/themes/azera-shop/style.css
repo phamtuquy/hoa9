@@ -6833,6 +6833,11 @@ p.edd-alert-error,
 	width: 95%;
 }
 
+.bottom-line {
+	border-bottom: 1px solid #eaebec;
+	padding-bottom: 22px;
+}
+
 .orange-text {
 	color: #ed440b;
 }
@@ -6843,6 +6848,7 @@ p.edd-alert-error,
 
 .title-ul {
 	margin: 0 0 0 0;
+	padding-left: 0px;
 }
 
 .woocommerce form .form-row .custom-checkbox-1{
