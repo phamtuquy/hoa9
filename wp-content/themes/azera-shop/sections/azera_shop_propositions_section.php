@@ -15,6 +15,7 @@ $azera_shop_propositions_image_one = get_theme_mod( 'azera_shop_propositions_ima
 $azera_shop_propositions_text_two = get_theme_mod( 'azera_shop_propositions_text_two', '' );
 $azera_shop_propositions_title_two = get_theme_mod( 'azera_shop_propositions_title_two', '' );
 $azera_shop_propositions_image_two = get_theme_mod( 'azera_shop_propositions_image_two', '' );
+$azera_shop_propositions_video_two = get_theme_mod( 'azera_shop_propositions_video_two', '' );
 
 $azera_shop_propositions_text_three = get_theme_mod( 'azera_shop_propositions_text_three', '' );
 $azera_shop_propositions_title_three = get_theme_mod( 'azera_shop_propositions_title_three', '' );
@@ -124,7 +125,19 @@ if ( ! azera_shop_general_repeater_is_empty( $azera_shop_propositions ) ) {
 				    <!-- BRIEF IMAGE -->
 					<div class="col-md-6 brief-content-one">
 						<div class="brief-image-left">
-							<img src="<?php echo esc_url( $azera_shop_propositions_image_two ); ?>" alt="<?php echo esc_attr__( 'Logo', 'azera-shop' ); ?>">
+							<?php 
+								if (strpos($azera_shop_propositions_video_two, 'youtube') !== false || true)
+								{
+							?>
+									<iframe src="<?php echo esc_url( $azera_shop_propositions_video_two ) ; ?>" width="560" height="315" allowfullscreen></iframe>
+							<?php
+								}
+								else {
+							?>
+									<img src="<?php echo esc_url( $azera_shop_propositions_image_two ); ?>" alt="<?php echo esc_attr__( 'Logo', 'azera-shop' ); ?>">
+							<?php
+								}
+							?>
 						</div>
 					</div>
 								

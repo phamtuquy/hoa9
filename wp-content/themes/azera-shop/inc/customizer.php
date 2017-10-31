@@ -562,10 +562,20 @@ function azera_shop_customize_register( $wp_customize ) {
 		'transport' => 'postMessage',
 	));
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'azera_shop_propositions_image_two', array(
-	      	'label'    => esc_html__( 'Image prosition 2', 'azera-shop' ),
+	      	'label'    => esc_html__( 'Image proposition 2', 'azera-shop' ),
 	      	'section'  => 'azera_shop_propositions_section',
 			'priority'    => 32,
 	)));
+	
+	$wp_customize->add_setting( 'azera_shop_propositions_video_two', array(
+		'sanitize_callback' => 'azera_shop_sanitize_text',
+		'transport' => 'postMessage',
+	));
+	$wp_customize->add_control( 'azera_shop_propositions_video_two', array(
+		'label'    => esc_html__( 'Video proposition 2', 'azera-shop' ),
+		'section'  => 'azera_shop_propositions_section',
+		'priority'    => 33,
+	));
 
 
 	$wp_customize->add_setting( 'azera_shop_propositions_title_three', array(
